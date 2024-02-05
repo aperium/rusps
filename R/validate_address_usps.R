@@ -93,7 +93,6 @@ validate_address_usps <- function(street, city, state, username) {
   }
   
   rownames(all_addresses) <- NULL
-  return(all_addresses)
-  #return(all_addresses[,1:5])
+  return(all_addresses[,1:5])
 }
 
